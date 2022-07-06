@@ -1,5 +1,5 @@
 package com.sparta.SortManager;
-public class BubbleSort extends Sort {
+public class BubbleSort implements Sorter {
     public int[] sortArray(int[] inputArray){
         int temp;
         boolean arraySorted = true;

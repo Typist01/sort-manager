@@ -1,6 +1,6 @@
 package com.sparta.SortManager;
 
-public class InsertionSort extends Sort {
+public class InsertionSort implements Sorter {
 
 
     public int[] sortArray(int[] arrayToSort) {

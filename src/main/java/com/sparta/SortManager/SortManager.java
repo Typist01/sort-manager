@@ -3,6 +3,10 @@ package com.sparta.SortManager;
 
 public class SortManager{
     private Sorter sorter;
+
+//    log files can be used for normal operations
+//    can also be used to record errors
+
     SortManager(String sorterName){
         switch(sorterName){
             case "bubble": case "bubble sort":
