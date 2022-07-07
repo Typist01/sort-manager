@@ -1,4 +1,4 @@
-package com.sparta.SortManager;
+package com.sparta.SortManager.model;
 
 public class MergeSortedArrays {
     public static int[] mergeArrays(int[] arr1, int[] arr2){
@@ -22,5 +22,4 @@ public class MergeSortedArrays {
         }
         return mArray;
     }
-
 }

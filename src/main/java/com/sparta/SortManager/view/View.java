@@ -1,4 +1,4 @@
-package com.sparta.SortManager;
+package com.sparta.SortManager.view;
 
 public interface View {
 

@@ -1,5 +1,11 @@
-package com.sparta.SortManager;
+package com.sparta.SortManager.model;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class BubbleSort implements Sorter {
+    static final Logger logger = LogManager.getLogger("My Logger");
+
     public int[] sortArray(int[] inputArray){
         int temp;
         boolean arraySorted = true;

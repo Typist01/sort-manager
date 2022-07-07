@@ -1,5 +1,7 @@
 package com.sparta.SortManager;
 
+import com.sparta.SortManager.controller.SortManager;
+
 import java.util.Arrays;
 
 public class Main {

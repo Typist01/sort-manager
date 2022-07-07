@@ -1,4 +1,4 @@
-package com.sparta.SortManager;
+package com.sparta.SortManager.model;
 
 public class InsertionSort implements Sorter {
 
