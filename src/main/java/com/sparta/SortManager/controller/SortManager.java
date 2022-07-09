@@ -1,6 +1,5 @@
 package com.sparta.SortManager.controller;
 
-
 import com.sparta.SortManager.model.BubbleSort;
 import com.sparta.SortManager.model.InsertionSort;
 import com.sparta.SortManager.model.MergeSort;
