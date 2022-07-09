@@ -1,6 +1,7 @@
 package com.sparta.SortManager.model;
 
 public class MergeSortedArrays {
+    // merge two sorted arrays
     public static int[] mergeArrays(int[] arr1, int[] arr2){
         int arrLength = arr1.length + arr2.length;
         int[] mArray = new int[arrLength];

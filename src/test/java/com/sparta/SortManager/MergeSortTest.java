@@ -11,11 +11,9 @@ import java.util.Arrays;
 class MergeSortTest {
     MergeSort mergesort = new MergeSort();
 
-
     @BeforeEach
     void setUp() {
     }
-
     @Test
     void sortArray() {
         int[] arrayToSort = {4, 2, 1};
