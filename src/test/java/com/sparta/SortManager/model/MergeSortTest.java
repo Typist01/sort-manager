@@ -1,4 +1,4 @@
-package com.sparta.SortManager;
+package com.sparta.SortManager.model;
 
 import com.sparta.SortManager.model.MergeSort;
 import org.junit.jupiter.api.Assertions;
@@ -11,19 +11,12 @@ import java.util.Arrays;
 class MergeSortTest {
     MergeSort mergesort = new MergeSort();
 
-    @BeforeEach
-    void setUp() {
-    }
     @Test
-    void sortArray() {
+    void sortArray1() {
         int[] arrayToSort = {4, 2, 1};
         int[] sortedArray = {1, 2, 4};
         Assertions.assertEquals(Arrays.toString(mergesort.sortArray(arrayToSort)), Arrays.toString(sortedArray));
     }
-    @Test
-    void stringArray(){
-        String[] myStringArray = {"asdf", "asdf"};
-//        Assertions.assertThrows(mergesort.sortArray(myStringArray));
-    }
+
 
 }
