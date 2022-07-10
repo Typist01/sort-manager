@@ -61,11 +61,11 @@ public class Viewer {
             System.out.println("Sorting complete, time taken: " + getTimeString(t));
     }
     public int getArrayLength(){
-        System.out.println("Generating randomly, how many elements would you like to use?");
         int tries = 0;
         while (tries++ < 3){
+            System.out.println("Generating randomly, how many elements would you like to use?");
             try{
-                int userInput = Integer.parseInt(scanner.nextLine());
+                int userInput = Integer.parseInt(scanner.nextLine().trim());
                 if (userInput>0)
                     return userInput;
                 else
@@ -73,8 +73,10 @@ public class Viewer {
             } catch(NotNaturalException e) {
                 LoggingMain.logger.info("Natural number exception from getArrayLength\n" + e);
                 System.out.println("Only natural numbers accepted\n");
+                continue;
             } catch(Exception e){
                 LoggingMain.logger.debug("Exception when getting user input for array length\n" + e);
+                continue;
             }
         }
         System.out.println("\nAuto generating 100 elements");

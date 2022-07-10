@@ -31,6 +31,4 @@ class BubbleSortTest {
         int[] expected = {-3, -1, 0, 1, 1, 2, 3};
         Assertions.assertEquals(Arrays.toString(expected), Arrays.toString(sorterResult));
     }
-
-
 }
