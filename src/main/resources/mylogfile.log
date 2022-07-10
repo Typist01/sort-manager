@@ -1,0 +1,15 @@
+File Log: [INFO ] 2022-07-10 18:40:55,006 main <-My Logger-> - invalid entry in getSortingPreference
+
+File Log: [INFO ] 2022-07-10 18:40:55,256 main <-My Logger-> - invalid entry in getSortingPreference
+
+File Log: [INFO ] 2022-07-10 18:40:55,588 main <-My Logger-> - invalid entry in getSortingPreference
+
+File Log: [WARN ] 2022-07-10 18:40:55,588 main <-My Logger-> - Three invalid entries in getSortingPreference
+File Log: [INFO ] 2022-07-10 18:51:58,084 main <-My Logger-> - invalid entry in getSortingPreference
+
+File Log: [INFO ] 2022-07-10 18:51:58,086 main <-My Logger-> - invalid entry in getSortingPreference
+
+File Log: [INFO ] 2022-07-10 18:51:58,392 main <-My Logger-> - invalid entry in getSortingPreference
+
+File Log: [WARN ] 2022-07-10 18:51:58,392 main <-My Logger-> - Three invalid entries in getSortingPreference
+File Log: [INFO ] 2022-07-10 18:53:54,214 main <-My Logger-> - Natural number exception from getArrayLengthcom.sparta.SortManager.view.NotNaturalException: Not a natural number

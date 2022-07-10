@@ -1,8 +1,10 @@
 package com.sparta.SortManager.model;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class MergeSort implements Sorter {
+
     public int[] sortArray(int[] arr) {
         int n = arr.length;
         if (n == 1)

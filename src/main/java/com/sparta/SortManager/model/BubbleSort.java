@@ -3,6 +3,8 @@ package com.sparta.SortManager.model;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.util.List;
+
 public class BubbleSort implements Sorter {
     static final Logger logger = LogManager.getLogger("My Logger");
 

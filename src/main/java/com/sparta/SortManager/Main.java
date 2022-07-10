@@ -8,9 +8,5 @@ public class Main {
     public static void main(String[] args) {
         SortManager sortManager = new SortManager();
         sortManager.start();
-//        int[] myArray = {1, 2, 3, 3, 2, 1};
-//        System.out.println(Arrays.toString(sorter.sort(myArray)));
-//        System.out.println(sorter.getSorterName());
-
     }
 }
