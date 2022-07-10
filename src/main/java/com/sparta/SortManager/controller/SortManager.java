@@ -1,7 +1,6 @@
 package com.sparta.SortManager.controller;
 
 import com.sparta.SortManager.model.BubbleSort;
-import com.sparta.SortManager.model.InsertionSort;
 import com.sparta.SortManager.model.MergeSort;
 import com.sparta.SortManager.model.Sorter;
 
@@ -13,8 +12,6 @@ public SortManager(String sorterName){
         switch(sorterName){
             case "bubble": case "bubble sort":
                 sorter = new BubbleSort();
-            case "insertion": case "insertion sort":
-                sorter = new InsertionSort();
             case "merge": case"merge sort":
                 sorter = new MergeSort();
             default:

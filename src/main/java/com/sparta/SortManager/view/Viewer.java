@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Viewer implements View {
     Scanner scanner = new Scanner(System.in);
-    Logger logger = new Logger("my logger");
+//    Logger logger = new Logger("my logger");
     public String getSortingPreference(){
         Boolean gotInput = false;
         String userChoice;
