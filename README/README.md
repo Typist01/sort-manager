@@ -1,7 +1,7 @@
 # Sort Manager
 
 ## Installation:
-- Clone repo and install Mavern dependencies
+- Clone repository and install the Mavern dependencies
 
 ## Usage:
 #### This is a sort manager which contains four sorting algorithms.
