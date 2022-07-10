@@ -53,12 +53,7 @@ public class Viewer {
             return t/1000000000.0 + " seconds";
     }
     public void printTimeTaken(Long t){
-        if (t < 1000)
-            System.out.println("Sorting complete, time taken: " + getTimeString(t));
-         else if (t<100000000)
-             System.out.println("Sorting complete, time taken: " + getTimeString(t));
-         else
-            System.out.println("Sorting complete, time taken: " + getTimeString(t));
+        System.out.println("Sorting complete, avg. time taken: " + getTimeString(t));
     }
     public int getArrayLength(){
         int tries = 0;

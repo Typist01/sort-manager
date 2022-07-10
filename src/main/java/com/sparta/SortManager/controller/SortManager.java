@@ -1,12 +1,10 @@
 package com.sparta.SortManager.controller;
-
 import com.sparta.SortManager.model.BinaryTree.TreeAdapter;
 import com.sparta.SortManager.model.BubbleSort;
 import com.sparta.SortManager.model.MergeSort;
 import com.sparta.SortManager.model.MergeSortedArrays;
 import com.sparta.SortManager.model.Sorter;
 import com.sparta.SortManager.view.Viewer;
-
 import java.util.Random;
 
 public class SortManager{
