@@ -12,6 +12,7 @@ An adapter class was used to create methods for converting arrays into binary tr
 there is also an option to sort a given array which automatically generates a new binary tree.
 
 ### Usage Example
+#### Run src/main/java/com.sparta.SortManager/Main
 - You should be greeted by a user interface like this:  
   ![img.png](./README/img.png)
 - Choose sorting method:  
