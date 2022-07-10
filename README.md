@@ -1,7 +1,7 @@
 # Sort Manager
 
 ## Installation:
-- Clone repo and install Mavern dependencies
+- Clone repository and install the Mavern dependencies
 
 ## Usage:
 #### This is a sort manager which contains four sorting algorithms.
@@ -12,20 +12,23 @@ An adapter class was used to create methods for converting arrays into binary tr
 there is also an option to sort a given array which automatically generates a new binary tree.
 
 ### Usage Example
-- You should be greeted by a user interface like this:
-![img.png](./README/img.png)
-- Choose sorting method: ![img_2.png](./README/img_2.png)****
-- Chose number of elements to include in the unsorted array: ![img_3.png](./README/img_3.png)
-- Choose to compare with another algorithm: ![img_4.png](./README/img_4.png)
-- View the result: ![img_6.png](./README/img_6.png)
+- You should be greeted by a user interface like this:  
+  ![img.png](./README/img.png)
+- Choose sorting method:  
+  ![img_1.png](./README/img_1.png)
+- Chose number of elements to include in the unsorted array:  
+  ![img_2.png](./README/img_2.png)
+- Choose to compare with another algorithm:  
+  ![img_3.png](./README/img_3.png)
+- View the result:  
+  ![img_4.png](./README/img_4.png)
 
 ##### Sorting algorithm example test cases:
-
-![img_1.png](./README/img_1.png)
-
-##### Binary node tests:
-
 ![img_5.png](./README/img_5.png)
+
+##### Some of the binary node test cases:
+![img_6.png](./README/img_6.png)
+
 
 ###### There are also tests available for other sorting algorithms and the binary tree.
 
