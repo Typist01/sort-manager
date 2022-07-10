@@ -25,7 +25,7 @@ public class Viewer {
     public String getSortingPreference(){
         int tries = 0;
         while(tries++ < 3){
-            System.out.println("What type of sorting would you like? (bubble)");
+            System.out.println("What type of sorting would you like? (bubble/merge/binary)");
             String userChoice = scanner.nextLine().toLowerCase().trim();
                 switch (userChoice){
                 case"bubble": case "bubble sort":case "bubblesort": case "bubble-sort":
@@ -46,11 +46,11 @@ public class Viewer {
     }
     public String getTimeString(Long t){
         if ( t < 1000)
-            return t + " ns.";
+            return t + " ns";
         else if( t < 100000000)
-            return  t/1000000.0 + " ms.";
+            return  t/1000000.0 + " ms";
         else
-            return t/1000000000.0 + " seconds.";
+            return t/1000000000.0 + " seconds";
     }
     public void printTimeTaken(Long t){
         if (t < 1000)
