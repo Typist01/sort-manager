@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 
 class BinaryNodeTest {
     BinaryNode myNode;
-
     @BeforeEach
     void setUp() {
         myNode = new BinaryNode(3);

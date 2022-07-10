@@ -8,9 +8,7 @@ import java.util.Arrays;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MergeSortedArraysTest {
-
     MergeSortedArrays sorter = new MergeSortedArrays();
-
     @Test
     void mergeArrays() {
         int[] arr1 = {1, 2, 3};
@@ -27,5 +25,4 @@ class MergeSortedArraysTest {
         int[] expected  = {-3, 0, 0, 1, 1, 2, 3, 5, 5};
         assertEquals(Arrays.toString(expected), Arrays.toString(sorterResult));
     }
-
 }
