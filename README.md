@@ -30,4 +30,4 @@ there is also an option to sort a given array which automatically generates a ne
 ###### There are also tests available for other sorting algorithms and the binary tree.
 
 ###### Some custom exceptions are also thrown such as NotNaturalException in the viewer.
-###### Logging is done in src/resources/mylogfile.log
+###### Logging is done in src/resources/main/mylogfile.log
