@@ -108,12 +108,26 @@ public class SortManager{
         return sorter.getClass().getSimpleName();
     }
 
+    private Long getAvgTime(int[] inputArray){
+        int n = 20;
+        Long[] finishTimes = new Long[n];
+        for (int i=0; i<n; i++){
+            Long startTime = System.nanoTime();
+            sorter.sortArray(inputArray);
+            Long endTime = System.nanoTime();
+            finishTimes[i] = endTime - startTime;
+        }
+        int iterations = 0;
+        Long total = finishTimes[5];
+        for (int i=6; i<n - 5; i++){
+            total += finishTimes[i];
+            iterations++;
+        }
+        return total/iterations;
+    }
     private Long sort(int[] inputArray){
-//        Scanner scanner = new Scanner(System.in);
-        Long startTime = System.nanoTime();
         int[] sortedArray = sorter.sortArray(inputArray);
-        Long endTime = System.nanoTime();
-        Long timeTakenInNs = (endTime-startTime);
+        Long timeTakenInNs = getAvgTime(inputArray);
         viewer.printList(sortedArray, "Sorted List: ");
         viewer.printTimeTaken(timeTakenInNs);
         return timeTakenInNs;

@@ -34,15 +34,9 @@ public class TreeAdapter implements Sorter {
         if (node.hasRight())
             collectNodes(node.getRightNode(), intList);
     }
-
     public int[] sortArray(int[] arrayToSort) {
-        Viewer viewer = new Viewer();
         BinaryTree tree = toTree(arrayToSort);
-        Long startTime = System.nanoTime();
         List result = tree.toList();
-        Long endTime = System.nanoTime();
-        Long timeInNs = (startTime - endTime);
-        viewer.printTimeTaken(timeInNs);
         int[] arr = new int[arrayToSort.length];
         for (int i=0; i<arrayToSort.length; i++){
             arr[i] = (int) result.get(i);
